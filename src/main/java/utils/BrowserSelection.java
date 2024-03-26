@@ -29,6 +29,9 @@ public class BrowserSelection {
 		if(brw.equalsIgnoreCase("chrome"))
 		{
 			driver=new ChromeDriver();
+
+			System.out.println("THis is chrome");
+				
 		}
 		else if(brw.equalsIgnoreCase("edge"))
 		{
@@ -44,9 +47,8 @@ public class BrowserSelection {
 		}
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
-	
 	return driver;
-		
+	
 	}
 	
 	
