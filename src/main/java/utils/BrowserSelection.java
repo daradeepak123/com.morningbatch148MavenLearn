@@ -42,8 +42,6 @@ public class BrowserSelection {
 		{
 			driver=new InternetExplorerDriver();
 		}
-
-		
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
 	
