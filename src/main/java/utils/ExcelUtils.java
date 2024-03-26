@@ -9,7 +9,6 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class ExcelUtils {
 	
-	
 	public String[] callCellData(String path,String sheetname) throws IOException
 	{
 		String data[]=new String[2];
